@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px ;
+            padding: 0px;
+            
+        }
+        nav{
+            margin: 10px;
+            font-size: 30px;
+            color:pink;
+        }
+        .box1{
+            width:25rem;
+           
+            margin-top: 50px;
+        }
+        .main{
+            display: flex;
+            margin-top: 20px;
+            width:100%;
+            height: 100%;
+            
+        }
+        h2,h1,ariticle{
+            text-transform: capitalize;
+        }
+        
+        h1{
+            font-size: 3rem;
+        }
+        span{
+            color:rgb(13, 13, 93);
+        }
+        .div1{
+            margin: 10px;
+        }
+        .div2{
+            margin: 10px;
+        }
+        .div3{
+            margin: 10px;
+        }
+        .div4{
+            margin: 10px;
+        }
+        article{
+            justify-content: center;
+        }
+        footer{
+            position:relative;
+            bottom: 0;
+            text-align: end;
+            height: 50px;
+            width: 100%;
+            background-color:black;
+            color: white;
+
+
+        }
+        footer>p{padding: 10px;
+                background-color: black;
+                color:white;
+        }
+        p{
+            margin: 10px 5px;
+            font-size: 1.2rem;
+        }
+        body{
+            background-color: yellow;
+        }
+        @media(max-width:950px){
+                .main,.div1,.div3{
+                    flex-direction: column;
+
+                }
+                .div2,.div4{
+                    text-align: center;
+                }
+    } 
+    </style>
+</head>
+<body>
+    <header>
+    <nav>dev.com</nav>
+</header>
+    <div class="box1">
+        <h1>we are a <span>creative</span> design agency </h1>
+        
+    </div>
+    <div class="main">
+    
+
+            
+        <div class="div1">
+                <img src="pic/flower2.webp" alt="image">
+        </div>
+        <div class="div2">
+        
+            <h2>beauty</h2>
+            <article>The importance of flowers in nature cannot be overstated. Without flowers, there would be no fruit, grains, nuts or berries, as these are the ripened products of a successfully fertilized flower. These foods that are critical sources of calories and nutrients for a wide variety of organisms help support the biodiversity of our planet.</article>
+        
+
+        </div>
+        <div class="div3">
+            <img src="pic/flower1.webp" alt="image">
+        </div>
+        <div class="div4">
+
+        
+            <h2>How Do Insects Pollinate Flowers?</h2>
+            <article>In the spring and summer, insects are all around us. If you spend a few minutes in a garden, you’re sure to see a few fluttering butterflies or hear the sound of bees buzzing around a flower. Did you know that these insects are actually hard at work performing a valuable service? Insects are crucial to pollination, and without them, we would not have many of the fruits, nuts and vegetables we enjoy.</article>
+        
+
+        </div>
+
+</div>
+<footer>
+<p>create.devolop.design</p>
+</footer>
+</body>
+</html>
