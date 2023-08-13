@@ -5,7 +5,9 @@
 
     text-transform: capitalize;
 }
-
+body{
+    min-width:1175px;
+}
 .perent1{
     width: 100vw;
     height: 3rem;
